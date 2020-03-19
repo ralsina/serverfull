@@ -1,2 +1,2 @@
 def handler(request):
-    return "Hi there!, this is B"
+    return f"Hi there!, this is B {request.args}"
